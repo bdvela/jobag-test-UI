@@ -11,7 +11,7 @@ public class MyWebDriver {
     }
     public static WebDriver getWebDriver() {
         if(webDriver == null) {
-            String urlPage = "https://jobag-app.netlify.app/";
+            String urlPage = "https://jo-bag.netlify.app/";
             // Establece el chrome driver
             //WebDriver webDriver;
             String pathDriver = System.getProperty("user.dir") + "\\driver\\chromedriver_94.exe";
