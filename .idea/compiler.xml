@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="selenium" />
         <module name="deisw-selenium-master" />
+        <module name="jobag-test-UI" />
       </profile>
     </annotationProcessing>
   </component>
