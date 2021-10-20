@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc0c28d7-464b-4ee2-943e-d3bd611e43ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pe/edu/upc/selenium/cucumber/CreateProfesionalProfileSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/CreateProfesionalProfile.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="dc0c28d7-464b-4ee2-943e-d3bd611e43ac" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -179,7 +175,7 @@
       <workItem from="1632985755806" duration="4990000" />
       <workItem from="1633013778031" duration="3260000" />
       <workItem from="1633019162065" duration="3757000" />
-      <workItem from="1634746208660" duration="7069000" />
+      <workItem from="1634746208660" duration="7393000" />
     </task>
     <servers />
   </component>
