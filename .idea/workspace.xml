@@ -5,19 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc0c28d7-464b-4ee2-943e-d3bd611e43ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pe/edu/upc/selenium/cucumber/CreatePostulantJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pe/edu/upc/selenium/cucumber/SearchJobSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/CreatePostulantJob.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/searchJob.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pe/edu/upc/selenium/cucumber/registerasEmployeeSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/registerasEmployee.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/mulct.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/multiplicar.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/sumar.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/mulct.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/multiplicar.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pe/edu/upc/selenium/cucumber/RegisterAsPostulantSpedDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pe/edu/upc/selenium/cucumber/RegisterAsPostulantSpedDef.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/sumar.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/registeraspostulant.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/registeraspostulant.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +38,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: searchJob">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="pe.edu.upc.selenium.cucumber" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Feature: registerasEmployee">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -57,6 +53,25 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: registerasEmployee" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/registerasEmployee.feature" />
+      <option name="GLUE" value="pe.edu.upc.selenium.cucumber" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="jobag-test-UI" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: registerasEmployee" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -80,15 +95,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: El postulante logra registrarse con éxito. (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: El empleador logra registrarse con éxito." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/registeraspostulant.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/registerasEmployee.feature" />
       <option name="GLUE" value="pe.edu.upc.selenium.cucumber" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="jobag-test-UI" />
-      <option name="NAME_FILTER" value="^El postulante logra registrarse con éxito\.$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^El postulante logra registrarse con éxito\.$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: El postulante logra registrarse con éxito." />
+      <option name="NAME_FILTER" value="^El empleador logra registrarse con éxito\.$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^El empleador logra registrarse con éxito\.$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: El empleador logra registrarse con éxito." />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -100,15 +115,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: El postulante no puede encontrar puestos de trabajo" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: El empleador no logra registrarse por ingresar campos vacíos" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/searchJob.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/registerasEmployee.feature" />
       <option name="GLUE" value="pe.edu.upc.selenium.cucumber" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="jobag-test-UI" />
-      <option name="NAME_FILTER" value="^El postulante no puede encontrar puestos de trabajo$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^El postulante no puede encontrar puestos de trabajo$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: El postulante no puede encontrar puestos de trabajo" />
+      <option name="NAME_FILTER" value="^El empleador no logra registrarse por ingresar campos vacíos$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^El empleador no logra registrarse por ingresar campos vacíos$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: El empleador no logra registrarse por ingresar campos vacíos" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -120,35 +135,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: El postulante no puede encontrar puestos de trabajo." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: El empleador no logra registrarse." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/searchJob.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/registerasEmployee.feature" />
       <option name="GLUE" value="pe.edu.upc.selenium.cucumber" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="jobag-test-UI" />
-      <option name="NAME_FILTER" value="^El postulante no puede encontrar puestos de trabajo\.$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^El postulante no puede encontrar puestos de trabajo\.$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: El postulante no puede encontrar puestos de trabajo." />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: El postulante puede ver las propuestas de trabajo." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/searchJob.feature" />
-      <option name="GLUE" value="pe.edu.upc.selenium.cucumber" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="jobag-test-UI" />
-      <option name="NAME_FILTER" value="^El postulante puede ver las propuestas de trabajo\.$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^El postulante puede ver las propuestas de trabajo\.$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: El postulante puede ver las propuestas de trabajo." />
+      <option name="NAME_FILTER" value="^El empleador no logra registrarse\.$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^El empleador no logra registrarse\.$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: El empleador no logra registrarse." />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -162,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: registerasEmployee" />
+        <item itemvalue="Cucumber Java.Scenario: El empleador no logra registrarse por ingresar campos vacíos" />
+        <item itemvalue="Cucumber Java.Scenario: El empleador no logra registrarse." />
+        <item itemvalue="Cucumber Java.Scenario: El empleador logra registrarse con éxito." />
         <item itemvalue="Cucumber Java.Feature: searchJob" />
-        <item itemvalue="Cucumber Java.Scenario: El postulante no puede encontrar puestos de trabajo" />
-        <item itemvalue="Cucumber Java.Scenario: El postulante no puede encontrar puestos de trabajo." />
-        <item itemvalue="Cucumber Java.Scenario: El postulante puede ver las propuestas de trabajo." />
-        <item itemvalue="Cucumber Java.Scenario: El postulante logra registrarse con éxito. (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -186,6 +181,7 @@
       <workItem from="1632985755806" duration="4990000" />
       <workItem from="1633013778031" duration="3260000" />
       <workItem from="1633019162065" duration="3757000" />
+      <workItem from="1634746208660" duration="3364000" />
     </task>
     <servers />
   </component>
