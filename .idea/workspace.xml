@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc0c28d7-464b-4ee2-943e-d3bd611e43ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pe/edu/upc/selenium/cucumber/registerasEmployeeSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/registerasEmployee.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pe/edu/upc/selenium/cucumber/CreateProfesionalProfileSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CreateProfesionalProfile.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/registeraspostulant.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/registeraspostulant.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +42,7 @@
       <recent name="pe.edu.upc.selenium.cucumber" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: registerasEmployee">
+  <component name="RunManager" selected="Cucumber Java.Scenario: El postulante no logra modificar su perfil profesional">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -57,14 +56,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: registerasEmployee" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: CreateProfesionalProfile" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/registerasEmployee.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/CreateProfesionalProfile.feature" />
       <option name="GLUE" value="pe.edu.upc.selenium.cucumber" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="jobag-test-UI" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: registerasEmployee" />
+      <option name="SUGGESTED_NAME" value="Feature: CreateProfesionalProfile" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -76,14 +75,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: searchJob" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: registeraspostulant" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/searchJob.feature" />
-      <option name="GLUE" value="pe.edu.upc.selenium.cucumber" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/registeraspostulant.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="jobag-test-UI" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: searchJob" />
+      <option name="SUGGESTED_NAME" value="Feature: registeraspostulant" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -95,15 +93,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: El empleador logra registrarse con éxito." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: El postulante desea crear su perfil profesional." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/registerasEmployee.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/CreateProfesionalProfile.feature" />
       <option name="GLUE" value="pe.edu.upc.selenium.cucumber" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="jobag-test-UI" />
-      <option name="NAME_FILTER" value="^El empleador logra registrarse con éxito\.$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^El empleador logra registrarse con éxito\.$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: El empleador logra registrarse con éxito." />
+      <option name="NAME_FILTER" value="^El postulante desea crear su perfil profesional\.$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^El postulante desea crear su perfil profesional\.$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: El postulante desea crear su perfil profesional." />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -115,15 +113,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: El empleador no logra registrarse por ingresar campos vacíos" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: El postulante desea modificar su perfil profesional." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/registerasEmployee.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/CreateProfesionalProfile.feature" />
       <option name="GLUE" value="pe.edu.upc.selenium.cucumber" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="jobag-test-UI" />
-      <option name="NAME_FILTER" value="^El empleador no logra registrarse por ingresar campos vacíos$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^El empleador no logra registrarse por ingresar campos vacíos$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: El empleador no logra registrarse por ingresar campos vacíos" />
+      <option name="NAME_FILTER" value="^El postulante desea modificar su perfil profesional\.$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^El postulante desea modificar su perfil profesional\.$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: El postulante desea modificar su perfil profesional." />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -135,15 +133,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: El empleador no logra registrarse." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: El postulante no logra modificar su perfil profesional" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/registerasEmployee.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/CreateProfesionalProfile.feature" />
       <option name="GLUE" value="pe.edu.upc.selenium.cucumber" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="jobag-test-UI" />
-      <option name="NAME_FILTER" value="^El empleador no logra registrarse\.$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^El empleador no logra registrarse\.$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: El empleador no logra registrarse." />
+      <option name="NAME_FILTER" value="^El postulante no logra modificar su perfil profesional$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^El postulante no logra modificar su perfil profesional$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: El postulante no logra modificar su perfil profesional" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -157,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: registerasEmployee" />
-        <item itemvalue="Cucumber Java.Scenario: El empleador no logra registrarse por ingresar campos vacíos" />
-        <item itemvalue="Cucumber Java.Scenario: El empleador no logra registrarse." />
-        <item itemvalue="Cucumber Java.Scenario: El empleador logra registrarse con éxito." />
-        <item itemvalue="Cucumber Java.Feature: searchJob" />
+        <item itemvalue="Cucumber Java.Scenario: El postulante no logra modificar su perfil profesional" />
+        <item itemvalue="Cucumber Java.Scenario: El postulante desea modificar su perfil profesional." />
+        <item itemvalue="Cucumber Java.Scenario: El postulante desea crear su perfil profesional." />
+        <item itemvalue="Cucumber Java.Feature: CreateProfesionalProfile" />
+        <item itemvalue="Cucumber Java.Feature: registeraspostulant" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +179,7 @@
       <workItem from="1632985755806" duration="4990000" />
       <workItem from="1633013778031" duration="3260000" />
       <workItem from="1633019162065" duration="3757000" />
-      <workItem from="1634746208660" duration="3364000" />
+      <workItem from="1634746208660" duration="7069000" />
     </task>
     <servers />
   </component>
