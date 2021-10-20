@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc0c28d7-464b-4ee2-943e-d3bd611e43ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pe/edu/upc/selenium/cucumber/CreatePostulantJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pe/edu/upc/selenium/cucumber/SearchJobSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/CreatePostulantJob.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/searchJob.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/mulct.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/multiplicar.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/sumar.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/mulct.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/multiplicar.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pe/edu/upc/selenium/cucumber/RegisterAsPostulantSpedDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pe/edu/upc/selenium/cucumber/RegisterAsPostulantSpedDef.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/sumar.feature" beforeDir="false" />
-    </list>
+    <list default="true" id="dc0c28d7-464b-4ee2-943e-d3bd611e43ac" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -186,6 +172,7 @@
       <workItem from="1632985755806" duration="4990000" />
       <workItem from="1633013778031" duration="3260000" />
       <workItem from="1633019162065" duration="3757000" />
+      <workItem from="1634744794994" duration="377000" />
     </task>
     <servers />
   </component>
